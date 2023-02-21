@@ -2,7 +2,7 @@ import { ArticleLayout } from '@/components/ArticleLayout'
 
 export const meta = {
   author: 'William Pepple',
-  date: '2022-04-11',
+  date: '2023-02-18',
   title: 'File Management Hacks',
   description:
     'Linux commands for file management',
@@ -10,19 +10,15 @@ export const meta = {
 
 export default (props) => <ArticleLayout meta={meta} {...props} />
 
-When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language with a lot of benefits, but it’s been a while since I’ve seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.
 
-```rust
-use ferris_says::say;
-use std::io::{stdout, BufWriter};
+```
+    rm -r -f            removes files and directory
 
-fn main() {
-    let stdout = stdout();
-    let message = String::from("Hello fellow hackers");
-    let width = message.chars().count();
+    du -s               disk usage
 
-    let mut writer = BufWriter::new(stdout.lock());
-    say(message.as_bytes(), width, &mut writer).unwrap();
-}
+    mv -f -i            moves files or directory
+
+
+
 ```
 
