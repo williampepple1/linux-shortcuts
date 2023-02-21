@@ -80,7 +80,7 @@ export default function Home({ articles }) {
             Linux shortcut commands
           </h1>
           <p className="mt-6 mb-6 text-base text-zinc-600 dark:text-zinc-400">
-           Debian, Ubuntu, CentOS and other distros.
+           Linux shortcut commands for Debian, Ubuntu, CentOS and other distros.
           </p>
         </div>
         <div className="flex flex-col gap-16">
