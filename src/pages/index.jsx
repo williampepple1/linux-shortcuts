@@ -79,7 +79,7 @@ export default function Home({ articles }) {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
             Linux shortcut commands
           </h1>
-          <p className="mt-6 mb-6 text-base text-zinc-600 dark:text-zinc-400">
+          <p className="mt-6 mb-16 text-base text-zinc-600 dark:text-zinc-400">
            Linux shortcut commands for Debian, Ubuntu, CentOS and other distros.
           </p>
         </div>
